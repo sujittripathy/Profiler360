@@ -1,9 +1,10 @@
 package com.hyperion.controller;
 
-import com.hyperion.dto.ProfilerDTO;
+/*import com.hyperion.dto.ProfilerDTO;
 import com.hyperion.dto.ProfilerResponse;
 import com.hyperion.services.ProfilerServices;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -11,14 +12,29 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@RestController*/
 public class ProfilerRestController {
 
-    @Autowired
-    private ProfilerServices profilerServices;
+    /*private ProfilerServices profilerServices;
+    private ProfilerResponse profilerResponse;
+
+   // @Value("${profilercontroller.msg}")
+    private String propertyMessage;
 
     @Autowired
-    private ProfilerResponse profilerResponse;
+    public ProfilerRestController(ProfilerServices profilerServices) {
+        this.profilerServices = profilerServices;
+    }
+
+    @Autowired
+    public void setProfilerResponse(ProfilerResponse profilerResponse) {
+        this.profilerResponse = profilerResponse;
+    }
+
+    @RequestMapping("/")
+    public String home(){
+        return propertyMessage;
+    }
 
     @PostMapping(value = "/addProfile",
                 produces = MediaType.APPLICATION_JSON_VALUE)
@@ -48,5 +64,5 @@ public class ProfilerRestController {
         profilerResponse.setApplicationData(id);
         profilerResponse.setMessage("User profile deleted successfully.");
         return  new ResponseEntity<>(profilerResponse,HttpStatus.OK);
-    }
+    }*/
 }

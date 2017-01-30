@@ -1,15 +1,15 @@
 package com.hyperion.services;
 
-import com.hyperion.dto.ProfilerDTO;
+/*import com.hyperion.dto.ProfilerDTO;
 import com.hyperion.repository.ProfilerRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.List;*/
 
-@Service
+//@Service
 public class ProfilerServices {
-    @Autowired
+    /*@Autowired
     private ProfilerRepo profilerRepo;
 
     public String addProfile(ProfilerDTO profilerDTO){
@@ -22,5 +22,5 @@ public class ProfilerServices {
 
     public void deleteProfile(String id){
         profilerRepo.delete(id);
-    }
+    }*/
 }

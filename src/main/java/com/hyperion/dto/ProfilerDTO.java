@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
 
 public class ProfilerDTO {
-    @Id
+    /*@Id
     private String id;
 
     private String fName;
@@ -101,5 +101,5 @@ public class ProfilerDTO {
                 ", state='" + state + '\'' +
                 ", zip=" + zip +
                 '}';
-    }
+    }*/
 }

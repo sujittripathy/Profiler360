@@ -2,9 +2,9 @@ package com.hyperion.dto;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class ProfilerResponse {
-    private int httpStatusCode;
+    /*private int httpStatusCode;
     private String message;
     private String applicationData;
 
@@ -30,5 +30,5 @@ public class ProfilerResponse {
 
     public void setApplicationData(String applicationData) {
         this.applicationData = applicationData;
-    }
+    }*/
 }
